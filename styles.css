@@ -161,3 +161,21 @@ h4{
     transform: translateY(-14px);
     background: burlywood;
 }
+
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 50px;
+    padding: 30px 0;
+
+}
+
+.col-2 p{
+    color: rebeccapurple;
+
+}
+
+
+
+.col-2 .offer-img{
+    padding: 30px 0;
+}
