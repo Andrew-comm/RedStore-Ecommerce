@@ -179,3 +179,41 @@ h4{
 .col-2 .offer-img{
     padding: 30px 0;
 }
+
+.testimonials{
+    padding-top: 100px;
+}
+.testimonials .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonials .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonials .col-3:hover{
+    transform: translateY(-10px);
+    background: palevioletred;
+}
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b;
+
+}
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonials .col-3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
