@@ -217,3 +217,18 @@ h4{
     font-size: 16px;
 }
 
+.brands{
+    margin: 100px auto;
+}
+.col-5{
+    width: 160px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(60%);
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
