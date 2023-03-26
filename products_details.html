@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Andreas Shopping Site</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='main.js'></script>
+    <script src="https://kit.fontawesome.com/79a1a846e3.js" crossorigin="anonymous"></script><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+        <div class="container">
+
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+    
+            <nav>
+    
+                <ul id="menu-items">
+    
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Products</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Contact</li></a>
+                    <a href="#"><li>Account</li></a>
+    
+    
+                </ul>
+    
+            </nav>
+
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">    
+        </div>        
+    </div>
+
+
+   
+
+    <div class="small-container" id="single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/gallery-1.jpg" width="100%" id="product-img">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/gallery-1.jpg" width="100%" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="images/gallery-2.jpg" width="100%" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="images/gallery-3.jpg" width="100%" class="small-img">
+                    </div>
+
+                    <div class="small-img-col" >
+                        <img src="images/gallery-4.jpg" width="100%" class="small-img">
+                    </div>
+
+                    
+
+                    
+                </div>
+                
+            </div>
+            <div class="col-2">
+                <p>Home T-shirt</p>
+                <h2>Endurance Champion by HRX</h2>
+                <h4>$50.00</h4>
+                <select>
+                    <option>Select Option</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                     <option>small</option>
+
+                </select>
+                <input type="number" value="1"><br>
+                <a href="#" class="btn">Add To Cart</a>
+                <h3>Product Details<i class="fa fa-indent" ></i>
+                </h3>
+                <br>
+                <p>Get ready for summer with our 'Cool Breeze'<br>
+                t-shirt - made with breathable cotton and <br>
+                featuring a bold graphic print.<br>
+                Perfect for any occasion, order yours today! </p>
+            </div>
+        </div>
+       
+            
+        </div>
+
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <p>View More</p>
+
+            </div>
+
+        </div>
+       
+     
+        
+        
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg">
+                <h4>WristWonder</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>      
+
+                </div>
+                <p>$150.00</p>
+            </div>
+            
+            <div class="col-4">
+                <img src="images/product-10.jpg">
+                <h4>ShoeSiren</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" ></i>                 
+
+                </div>
+                <p>$65.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-11.jpg">
+                <h4>WalkWise</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>                 
+
+                </div>
+                <p>$70.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-12.jpg">
+                <h4>SleekStyle</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>                 
+
+                </div>
+                <p>$40.00</p>
+            </div>
+        </div>     
+        
+        
+        
+    </div>
+
+   
+    
+    
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download app for both android and IOS Mobile Devices</p>
+
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+
+                    </div>
+
+                </div>
+
+                <div class="footer-col-2">
+                   <img src="images/logo-white.png">
+                    <p>Welcome to our ecommerce site -<br>
+                     where shopping is made easy and enjoyable!</p>
+
+                </div>
+                
+                <div class="footer-col-3">
+                    <h3>Important Links</h3>
+
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post </li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+
+ 
+                 </div>
+
+                 <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+
+                    <ul>
+                        <li><a>Facebook</a></li>
+                        <li><a>Twitter</a></li>
+                        <li><a>Instagram</a></li>
+                        <li><a>YouTube</a></li>
+                    </ul>
+
+ 
+                 </div>
+
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 @Andrew Rono</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var menuItems = document.getElementById('menu-items');
+        menuItems.style.maxHeight = '0px';
+
+        function menutoggle(){
+            if(menuItems.style.maxHeight == '0px'){
+                menuItems.style.maxHeight ='200px'
+
+            }
+            else{
+                menuItems.style.maxHeight = '0px'
+
+            }
+        }
+    </script>
+
+    <script>
+        var productImg = document.getElementById("product-img");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function(){
+            productImg.src = smallImg[0].src;
+        }
+
+        smallImg[1].onclick = function(){
+            productImg.src = smallImg[1].src;
+        }
+
+        smallImg[2].onclick = function(){
+            productImg.src = smallImg[2].src;
+        }
+
+
+        smallImg[2].onclick = function(){
+            productImg.src = smallImg[2].src;
+        }
+
+
+        smallImg[3].onclick = function(){
+            productImg.src = smallImg[3].src;
+        }
+    </script>
+
+
+
+    
+
+    
+    
+</body>
+</html>
