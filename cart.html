@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Andreas Shopping Site</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='main.js'></script>
+    <script src="https://kit.fontawesome.com/79a1a846e3.js" crossorigin="anonymous"></script><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+        <div class="container">
+
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+    
+            <nav>
+    
+                <ul id="menu-items">
+    
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Products</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Contact</li></a>
+                    <a href="#"><li>Account</li></a>
+    
+    
+                </ul>
+    
+            </nav>
+
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">    
+        </div>        
+    </div>   
+
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-1.jpg">
+                        <div>
+                            <p>Red Printed T-shirt</p>
+                            <small>price: $50.00</small>
+                            <br>
+                            <a href="#">Remove</a>
+                        </div>
+                        
+                    </div>
+
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$60.00</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-2.jpg">
+                        <div>
+                            <p>Red Printed T-shirt</p>
+                            <small>price: $70.00</small>
+                            <br>
+                            <a href="#">Remove</a>
+                        </div>
+                        
+                    </div>
+
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$60.00</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-3.jpg">
+                        <div>
+                            <p>Red Printed T-shirt</p>
+                            <small>price: $60.00</small>
+                            <br>
+                            <a href="#">Remove</a>
+                        </div>
+                        
+                    </div>
+
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$60.00</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$250</td>
+                </tr>
+
+                <tr>
+                    <td>Tax</td>
+                    <td>$25</td>
+                </tr>
+
+                <tr>
+                    <td>Total</td>
+                    <td>$200</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download app for both android and IOS Mobile Devices</p>
+
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+
+                    </div>
+
+                </div>
+
+                <div class="footer-col-2">
+                   <img src="images/logo-white.png">
+                    <p>Welcome to our ecommerce site -<br>
+                     where shopping is made easy and enjoyable!</p>
+
+                </div>
+                
+                <div class="footer-col-3">
+                    <h3>Important Links</h3>
+
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post </li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+
+ 
+                 </div>
+
+                 <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+
+                    <ul>
+                        <li><a>Facebook</a></li>
+                        <li><a>Twitter</a></li>
+                        <li><a>Instagram</a></li>
+                        <li><a>YouTube</a></li>
+                    </ul>
+
+ 
+                 </div>
+
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 @Andrew Rono</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var menuItems = document.getElementById('menu-items');
+        menuItems.style.maxHeight = '0px';
+
+        function menutoggle(){
+            if(menuItems.style.maxHeight == '0px'){
+                menuItems.style.maxHeight ='200px'
+
+            }
+            else{
+                menuItems.style.maxHeight = '0px'
+
+            }
+        }
+    </script>
+    
+</body>
+</html>
